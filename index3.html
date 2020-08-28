@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Join local JSON data with Boundaries</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+
+  <div id='map'>
+  </div>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyZ2ltZWRpeHhpIiwiYSI6ImNrZHllaW03ZzFkbzgyeHBpdWU5ajc4N3UifQ.8M1VAUheXrCjYeK-aEsfPg';
+
+    // Initialize a map
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-0.321,39.349],
+      zoom: 12
+    });
+
+    // Local data code from the next step will go here.
+  </script>
+   <script  src="C:/Users/USUARIO/Documents/Prueba3/main3.js"></script>
+
+  </body>
+</html>
